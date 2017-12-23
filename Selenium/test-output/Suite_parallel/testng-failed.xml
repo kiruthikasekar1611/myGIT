@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [Suite_parallel]" parallel="none">
+  <test name="Test1(failed)" parallel="classes">
+    <classes>
+      <class name="testcase.MergeLead">
+        <methods>
+          <include name="mergeLead"/>
+        </methods>
+      </class> <!-- testcase.MergeLead -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite_parallel] -->

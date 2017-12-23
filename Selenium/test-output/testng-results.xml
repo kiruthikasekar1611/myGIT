@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="223177" started-at="2017-12-04T19:33:00Z" finished-at="2017-12-04T19:36:43Z">
+    <groups>
+      <group name="smoke">
+        <method signature="EditLead1.editlead(java.lang.String, java.lang.String)[pri:0, instance:dppackage.EditLead1@1d422d]" name="editlead" class="dppackage.EditLead1"/>
+        <method signature="CreateLead1.createLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:dppackage.CreateLead1@5ed7a6]" name="createLead" class="dppackage.CreateLead1"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test_chrome" duration-ms="68311" started-at="2017-12-04T19:33:00Z" finished-at="2017-12-04T19:34:08Z">
+      <class name="dppackage.EditLead1">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:dppackage.EditLead1@1d422d]" name="login" is-config="true" duration-ms="32127" started-at="2017-12-05T01:03:00Z" finished-at="2017-12-05T01:03:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="editlead(java.lang.String, java.lang.String)[pri:0, instance:dppackage.EditLead1@1d422d]" name="editlead" duration-ms="33713" started-at="2017-12-05T01:03:32Z" data-provider="fetchDataForEditLead" finished-at="2017-12-05T01:04:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AGILYSYS Private Limited]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editlead -->
+        <test-method status="PASS" signature="close()[pri:0, instance:dppackage.EditLead1@1d422d]" name="close" is-config="true" duration-ms="2309" started-at="2017-12-05T01:04:06Z" finished-at="2017-12-05T01:04:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- dppackage.EditLead1 -->
+    </test> <!-- Test_chrome -->
+    <test name="Test_firefox" duration-ms="154587" started-at="2017-12-04T19:34:08Z" finished-at="2017-12-04T19:36:43Z">
+      <class name="dppackage.CreateLead1">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:dppackage.CreateLead1@5ed7a6]" name="login" is-config="true" duration-ms="84601" started-at="2017-12-05T01:04:08Z" finished-at="2017-12-05T01:05:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="createLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:dppackage.CreateLead1@5ed7a6]" name="createLead" duration-ms="15600" started-at="2017-12-05T01:05:33Z" data-provider="fetchDataForCreateLead" finished-at="2017-12-05T01:05:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Maveric Systems]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Aliaaaa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NIL]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Cold Call]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="close()[pri:0, instance:dppackage.CreateLead1@5ed7a6]" name="close" is-config="true" duration-ms="190" started-at="2017-12-05T01:05:48Z" finished-at="2017-12-05T01:05:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:dppackage.CreateLead1@5ed7a6]" name="login" is-config="true" duration-ms="41690" started-at="2017-12-05T01:05:49Z" finished-at="2017-12-05T01:06:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="createLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:dppackage.CreateLead1@5ed7a6]" name="createLead" duration-ms="11962" started-at="2017-12-05T01:06:30Z" data-provider="fetchDataForCreateLead" finished-at="2017-12-05T01:06:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CGI LImited]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Anjana shree]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CBI]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Website]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="close()[pri:0, instance:dppackage.CreateLead1@5ed7a6]" name="close" is-config="true" duration-ms="507" started-at="2017-12-05T01:06:42Z" finished-at="2017-12-05T01:06:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- dppackage.CreateLead1 -->
+    </test> <!-- Test_firefox -->
+  </suite> <!-- Suite -->
+</testng-results>

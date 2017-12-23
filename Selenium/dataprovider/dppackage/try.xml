@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes" verbose="10">
+
+	<groups>
+		<run>
+			<include name="common"></include>
+			<include name="smoke"></include>
+		</run>
+	</groups>
+	
+	<parameter name="URL" value="http://leaftaps.com/opentaps"></parameter>
+	
+	<parameter name="uName" value="DemoSalesManager"></parameter>
+	<parameter name="pwd" value="crmsfa"></parameter>
+	
+	<test name="Test_chrome">
+	<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="dppackage.EditLead1"/>
+		</classes>
+	</test> 
+	
+	<test name="Test_firefox">
+	<parameter name="browser" value="firefox"></parameter>
+		<classes>		
+			<class name="dppackage.CreateLead1"/>			
+		</classes>
+	</test> 
+	
+	
+	
+	
+</suite>
