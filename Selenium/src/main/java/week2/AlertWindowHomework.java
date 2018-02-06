@@ -37,7 +37,7 @@ public class AlertWindowHomework {
 		}
 		
 		Thread.sleep(2000);
-		
+				
 		String childWindowHandle=driver.getWindowHandle();
 		System.out.println("Child window .."+childWindowHandle);
 		driver.findElementByXPath("//div/input[@name='id']").sendKeys("12269");

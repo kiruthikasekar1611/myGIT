@@ -16,6 +16,7 @@ public class ProjectMethods extends SeMethods {
 	}
 	
 	
+	
 	public void close(){
 		closeBrowser();
 		
